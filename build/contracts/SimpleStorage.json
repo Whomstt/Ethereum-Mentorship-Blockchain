@@ -644,7 +644,7 @@
   "sourceMap": "60:276:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "60:276:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;90:25;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;146:64;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;252:81;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;90:25;;;;:::o;146:64::-;201:1;188:10;:14;;;;146:64;:::o;252:81::-;288:7;315:10;;308:17;;252:81;:::o;7:139:1:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:222::-;;675:2;664:9;660:18;652:26;;688:71;756:1;745:9;741:17;732:6;688:71;:::i;:::-;642:124;;;;:::o;772:77::-;;838:5;827:16;;817:32;;;:::o;855:122::-;928:24;946:5;928:24;:::i;:::-;921:5;918:35;908:2;;967:1;964;957:12;908:2;898:79;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract SimpleStorage {\r\n    uint256 public storedData;\r\n\r\n    // Store a value\r\n    function set(uint256 x) public {\r\n        storedData = x;\r\n    }\r\n\r\n    // Retrieve the stored value\r\n    function get() public view returns (uint256) {\r\n        return storedData;\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\catha\\Documents\\College\\CS4207_Project\\contracts\\SimpleStorage.sol",
+  "sourcePath": "C:\\Users\\catha\\Documents\\CollegeProjects\\CS4207Project\\CS4207_Project\\contracts\\SimpleStorage.sol",
   "ast": {
     "absolutePath": "project:/contracts/SimpleStorage.sol",
     "exportedSymbols": {
@@ -903,12 +903,12 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x7c14632e668eb73f4451AC39643e7Bee83b5B5c0",
-      "transactionHash": "0xb02b9fe1377426813fb3aa05db61bc26ab0a0be479f6ecbcce50f4c3e3c26b45"
+      "address": "0xFbC490dC26163000F27130c08C8a1347E7D9d890",
+      "transactionHash": "0x7ba6b6a4f39f2f1931fd6779f17f0b29a019fbaba6f96d8ed0962e2be3962dbc"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-11-27T16:25:50.510Z",
+  "updatedAt": "2024-11-29T20:42:39.551Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
