@@ -1,0 +1,21 @@
+[
+    {
+      "courseId": 1,
+      "courseName": "Introduction to Blockchain",
+      "description": "Learn the basics of blockchain technology, its applications, and cryptography.",
+      "duration": "6 weeks"
+    },
+    {
+      "courseId": 2,
+      "courseName": "Smart Contract Development",
+      "description": "In-depth guide to developing smart contracts using Solidity.",
+      "duration": "8 weeks"
+    },
+    {
+      "courseId": 3,
+      "courseName": "Decentralized Finance (DeFi)",
+      "description": "Explore decentralized finance, tokenomics, and decentralized applications (dApps).",
+      "duration": "10 weeks"
+    }
+  ]
+  

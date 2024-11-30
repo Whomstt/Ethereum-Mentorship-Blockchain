@@ -1,0 +1,71 @@
+=============== Nov 30, 2024 (GMT) ===============
+14:44:09.709124 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:44:09.711792 db@open opening
+14:44:09.713863 version@stat F·[] S·0B[] Sc·[]
+14:44:09.714909 db@janitor F·2 G·0
+14:44:09.714909 db@open done T·3.1161ms
+=============== Nov 30, 2024 (GMT) ===============
+14:48:09.278196 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:48:09.278718 version@stat F·[] S·0B[] Sc·[]
+14:48:09.278718 db@open opening
+14:48:09.278718 journal@recovery F·1
+14:48:09.280290 journal@recovery recovering @1
+14:48:09.281895 memdb@flush created L0@2 N·895 S·26KiB "loc..seq,v29":"version,v1"
+14:48:09.283474 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+14:48:09.287159 db@janitor F·3 G·0
+14:48:09.287159 db@open done T·8.4416ms
+14:52:49.151690 db@close closing
+14:52:49.151690 db@close done T·0s
+=============== Nov 30, 2024 (GMT) ===============
+14:53:01.534961 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:53:01.535484 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+14:53:01.535484 db@open opening
+14:53:01.535484 journal@recovery F·1
+14:53:01.537056 journal@recovery recovering @3
+14:53:01.539135 memdb@flush created L0@5 N·874 S·25KiB "loc..seq,v922":"n:\xff..ong,v1000"
+14:53:01.540693 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+14:53:01.544380 db@janitor F·4 G·0
+14:53:01.544380 db@open done T·8.8963ms
+14:53:01.552085 table@compaction L0·2 -> L1·0 S·51KiB Q·1771
+14:53:01.554093 table@build created L1@8 N·1389 S·45KiB "loc..seq,v922":"version,v1"
+14:53:01.554093 version@stat F·[0 1] S·45KiB[0B 45KiB] Sc·[0.00 0.00]
+14:53:01.555092 table@compaction committed F-1 S-5KiB Ke·0 D·380 T·3.0066ms
+14:53:01.565886 table@remove removed @2
+14:58:42.225207 db@close closing
+14:58:42.225207 db@close done T·0s
+=============== Nov 30, 2024 (GMT) ===============
+14:58:50.025368 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:58:50.025888 version@stat F·[0 1] S·45KiB[0B 45KiB] Sc·[0.00 0.00]
+14:58:50.025888 db@open opening
+14:58:50.025888 journal@recovery F·1
+14:58:50.026939 journal@recovery recovering @6
+14:58:50.028504 memdb@flush created L0@9 N·960 S·32KiB "loc..seq,v1796":"n:\xff..ong,v1910"
+14:58:50.030662 version@stat F·[1 1] S·78KiB[32KiB 45KiB] Sc·[0.25 0.00]
+14:58:50.034389 db@janitor F·5 G·1
+14:58:50.034389 db@janitor removing table-5
+14:58:50.034389 db@open done T·8.5015ms
+14:58:52.582932 table@compaction L0·1 -> L1·1 S·78KiB Q·2746
+14:58:52.586233 table@build created L1@12 N·2128 S·74KiB "loc..seq,v1796":"version,v1"
+14:58:52.586233 version@stat F·[0 1] S·74KiB[0B 74KiB] Sc·[0.00 0.00]
+14:58:52.587289 table@compaction committed F-1 S-4KiB Ke·0 D·221 T·4.3567ms
+14:58:52.587289 table@remove removed @8
+15:04:25.772238 db@close closing
+15:04:25.772744 db@close done T·505.3µs
+=============== Nov 30, 2024 (GMT) ===============
+15:05:51.294368 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:05:51.294368 version@stat F·[0 1] S·74KiB[0B 74KiB] Sc·[0.00 0.00]
+15:05:51.294368 db@open opening
+15:05:51.294368 journal@recovery F·1
+15:05:51.295367 journal@recovery recovering @10
+15:05:51.297367 memdb@flush created L0@13 N·989 S·33KiB "loc..seq,v2756":"n:\xff..ong,v2947"
+15:05:51.298370 version@stat F·[1 1] S·107KiB[33KiB 74KiB] Sc·[0.25 0.00]
+15:05:51.302357 db@janitor F·5 G·1
+15:05:51.302357 db@janitor removing table-9
+15:05:51.303369 db@open done T·9.001ms
+15:05:52.923931 table@compaction L0·1 -> L1·1 S·107KiB Q·3730
+15:05:52.927107 table@build created L1@16 N·2866 S·100KiB "loc..seq,v2756":"version,v1"
+15:05:52.927107 version@stat F·[0 1] S·100KiB[0B 100KiB] Sc·[0.00 0.00]
+15:05:52.927635 table@compaction committed F-1 S-7KiB Ke·0 D·251 T·3.7049ms
+15:05:52.928165 table@remove removed @12
+15:15:03.927764 db@close closing
+15:15:03.928313 db@close done T·548.8µs
