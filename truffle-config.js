@@ -6,7 +6,7 @@ module.exports = {
       network_id: "12345", // Match any network id
       gas: 5000000, // Set the gas limit
       gasPrice: 20000000000, // Set the gas price (in Wei)
-      from: "0xe508c1571ccc27ac15c7f8793112a2b35776a778", // Set the sender address
+      from: "0xc9123601c6de6daca62919149667614eb358dc3f", // Set the sender address
     },
   },
   compilers: {

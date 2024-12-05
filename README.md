@@ -12,7 +12,7 @@ geth --datadir node2 --networkid 12345 --http --http.addr 0.0.0.0 --http.port 85
 
 Terminal 3 (Paste as separate commands):
 geth attach http://127.0.0.1:8545
-personal.unlockAccount("0xe508c1571ccc27ac15c7f8793112a2b35776a778", "Valid1234$", 600)
+personal.unlockAccount("0xc9123601c6de6daca62919149667614eb358dc3f", "Valid1234$", 600)
 
 Terminal 4 (Paste as separate commands):
 geth attach http://127.0.0.1:8546

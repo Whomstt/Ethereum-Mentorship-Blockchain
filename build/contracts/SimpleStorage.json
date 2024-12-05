@@ -629,7 +629,7 @@
   "sourceMap": "60:221:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "60:221:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;125:64;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;197:81;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;125:64;180:1;167:10;:14;;;;125:64;:::o;197:81::-;233:7;260:10;;253:17;;197:81;:::o;7:139:3:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:222::-;;675:2;664:9;660:18;652:26;;688:71;756:1;745:9;741:17;732:6;688:71;:::i;:::-;642:124;;;;:::o;772:77::-;;838:5;827:16;;817:32;;;:::o;855:122::-;928:24;946:5;928:24;:::i;:::-;921:5;918:35;908:2;;967:1;964;957:12;908:2;898:79;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract SimpleStorage {\r\n    uint256 private storedData;\r\n\r\n    function set(uint256 x) public {\r\n        storedData = x;\r\n    }\r\n\r\n    function get() public view returns (uint256) {\r\n        return storedData;\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\daraf\\Documents\\GitHub\\CS4207_Project\\contracts\\SimpleStorage.sol",
+  "sourcePath": "C:\\Users\\catha\\Documents\\College\\CS4207_Project\\contracts\\SimpleStorage.sol",
   "ast": {
     "absolutePath": "project:/contracts/SimpleStorage.sol",
     "exportedSymbols": {
@@ -885,7 +885,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-05T15:36:30.403Z",
+  "updatedAt": "2024-12-05T16:35:45.096Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
