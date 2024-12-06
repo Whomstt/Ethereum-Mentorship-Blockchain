@@ -1,0 +1,42 @@
+{
+    "1": {
+        "questionName": "How can I impress my recruiter",
+        "answers": [
+            "Prepare a tailored resume highlighting relevant experience and skills.",
+            "Show enthusiasm for the company and position by researching its culture and values.",
+            "Practice your pitch and be ready to explain how you can add value to the organization."
+        ]
+    },
+    "2": {
+        "questionName": "What are the best strategies for job interviews?",
+        "answers": [
+            "Research the company, its products, and the role you're applying for.",
+            "Be confident and give clear, concise answers with real-world examples.",
+            "Ask thoughtful questions that show your interest in the role and the company's future."
+        ]
+    },
+    "3": {
+        "questionName": "How can I improve my resume?",
+        "answers": [
+            "Focus on accomplishments, quantifying your achievements with specific metrics.",
+            "Use a clean, professional layout with easy-to-read fonts and section headings.",
+            "Tailor your resume for each job application by including keywords from the job description."
+        ]
+    },
+    "4": {
+        "questionName": "What skills should I focus on to get hired in tech?",
+        "answers": [
+            "Strong problem-solving skills and proficiency in algorithms and data structures.",
+            "Experience with programming languages such as Python, Java, or JavaScript.",
+            "Understanding of version control tools like Git and frameworks relevant to your desired role."
+        ]
+    },
+    "5": {
+        "questionName": "How can I prepare for a coding interview?",
+        "answers": [
+            "Practice solving problems on platforms like LeetCode or HackerRank.",
+            "Understand common algorithms and data structures like arrays, trees, and graphs.",
+            "Be ready to explain your thought process and approach to solving problems during the interview."
+        ]
+    }
+}
