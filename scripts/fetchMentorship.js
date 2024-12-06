@@ -58,5 +58,14 @@ async function listenForMentorshipRequests() {
   }
 }
 
-// Start listening for events
-listenForMentorshipRequests();
+// Check if the script is passed a departmentId as a command-line argument
+const departmentIdArg = process.argv[2]; // The 3rd argument passed from the command line
+
+if (departmentIdArg) {
+  // Fetch mentorship data for the given departmentId
+  console.log(`Fetching mentorship data for department ID: ${departmentIdArg}`);
+  getMentorshipData(departmentIdArg);
+} else {
+  // No departmentId provided, start listening for events
+  listenForMentorshipRequests();
+}

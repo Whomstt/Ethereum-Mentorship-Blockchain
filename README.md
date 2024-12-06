@@ -12,7 +12,7 @@ ganache-cli -p 8545
 
 Terminal 2:
 truffle migrate --network development
-node scripts/fetchMentorship.js 
+node scripts/fetchMentorship.js 1 // Replace 1 with ID of Department to search
 
 
 
