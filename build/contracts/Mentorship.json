@@ -34,9 +34,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"departmentId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"requester\",\"type\":\"address\"}],\"name\":\"MentorshipFetchRequested\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"departmentId\",\"type\":\"uint256\"}],\"name\":\"fetchMentorship\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Mentorship.sol\":\"Mentorship\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Mentorship.sol\":{\"keccak256\":\"0x02fbb3b31e5ffbf2089aed52972049d9eb0ce3b0f9e201cac2e2ec17e50c9254\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6f085222541e2ffdd5e9bab13fa44d3acb70ddcc5d2400af471b6c424d90f5eb\",\"dweb:/ipfs/QmZa7qYqPum22Zvc7RA5khLWE2GF7sXHEC7KrjAXd9ofY9\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610196806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806386d708a914610030575b600080fd5b61004a6004803603810190610045919061009d565b61004c565b005b7f218c987087255fe4804b69a11dc758c7cc63ab3efcaf895c5a3eeb219d4909da813360405161007d9291906100e4565b60405180910390a150565b60008135905061009781610149565b92915050565b6000602082840312156100af57600080fd5b60006100bd84828501610088565b91505092915050565b6100cf8161010d565b82525050565b6100de8161013f565b82525050565b60006040820190506100f960008301856100d5565b61010660208301846100c6565b9392505050565b60006101188261011f565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6101528161013f565b811461015d57600080fd5b5056fea2646970667358221220eec9de5337b112b959d6dfadef3de900a34fb1e9e80d0ea1c9b2da903557933e64736f6c63430008000033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806386d708a914610030575b600080fd5b61004a6004803603810190610045919061009d565b61004c565b005b7f218c987087255fe4804b69a11dc758c7cc63ab3efcaf895c5a3eeb219d4909da813360405161007d9291906100e4565b60405180910390a150565b60008135905061009781610149565b92915050565b6000602082840312156100af57600080fd5b60006100bd84828501610088565b91505092915050565b6100cf8161010d565b82525050565b6100de8161013f565b82525050565b60006040820190506100f960008301856100d5565b61010660208301846100c6565b9392505050565b60006101188261011f565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6101528161013f565b811461015d57600080fd5b5056fea2646970667358221220eec9de5337b112b959d6dfadef3de900a34fb1e9e80d0ea1c9b2da903557933e64736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"departmentId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"requester\",\"type\":\"address\"}],\"name\":\"MentorshipFetchRequested\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"departmentId\",\"type\":\"uint256\"}],\"name\":\"fetchMentorship\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Mentorship.sol\":\"Mentorship\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Mentorship.sol\":{\"keccak256\":\"0x422cce28e363bca874dd71a08bebdb1c3f9cf8a70df8e5bab4e92aa811498d73\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1faed942efac0ca7c218d29dd6b0de49684bd8a4a0d62812a2817f69bc889725\",\"dweb:/ipfs/QmZ9AgKMriYfyBgvtoGgypsHtdnWFueqHSD4SiPpEXdom7\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610196806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806386d708a914610030575b600080fd5b61004a6004803603810190610045919061009d565b61004c565b005b7f218c987087255fe4804b69a11dc758c7cc63ab3efcaf895c5a3eeb219d4909da813360405161007d9291906100e4565b60405180910390a150565b60008135905061009781610149565b92915050565b6000602082840312156100af57600080fd5b60006100bd84828501610088565b91505092915050565b6100cf8161010d565b82525050565b6100de8161013f565b82525050565b60006040820190506100f960008301856100d5565b61010660208301846100c6565b9392505050565b60006101188261011f565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6101528161013f565b811461015d57600080fd5b5056fea2646970667358221220cd8e35e9a24ba70c44c7dd1a2d30399a65b81bc99dd5ec70d5dc38b39ea7681f64736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806386d708a914610030575b600080fd5b61004a6004803603810190610045919061009d565b61004c565b005b7f218c987087255fe4804b69a11dc758c7cc63ab3efcaf895c5a3eeb219d4909da813360405161007d9291906100e4565b60405180910390a150565b60008135905061009781610149565b92915050565b6000602082840312156100af57600080fd5b60006100bd84828501610088565b91505092915050565b6100cf8161010d565b82525050565b6100de8161013f565b82525050565b60006040820190506100f960008301856100d5565b61010660208301846100c6565b9392505050565b60006101188261011f565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6101528161013f565b811461015d57600080fd5b5056fea2646970667358221220cd8e35e9a24ba70c44c7dd1a2d30399a65b81bc99dd5ec70d5dc38b39ea7681f64736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -857,9 +857,9 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "60:447:1:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "60:447:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;287:217;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;446:50;471:12;485:10;446:50;;;;;;;:::i;:::-;;;;;;;;287:217;:::o;7:139:3:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:118::-;631:24;649:5;631:24;:::i;:::-;626:3;619:37;609:53;;:::o;668:332::-;;827:2;816:9;812:18;804:26;;840:71;908:1;897:9;893:17;884:6;840:71;:::i;:::-;921:72;989:2;978:9;974:18;965:6;921:72;:::i;:::-;794:206;;;;;:::o;1006:96::-;;1072:24;1090:5;1072:24;:::i;:::-;1061:35;;1051:51;;;:::o;1108:126::-;;1185:42;1178:5;1174:54;1163:65;;1153:81;;;:::o;1240:77::-;;1306:5;1295:16;;1285:32;;;:::o;1323:122::-;1396:24;1414:5;1396:24;:::i;:::-;1389:5;1386:35;1376:2;;1435:1;1432;1425:12;1376:2;1366:79;:::o",
-  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract Mentorship {\r\n\r\n    // Event to be emitted when a fetch request is made\r\n    event MentorshipFetchRequested(uint256 departmentId, address requester);\r\n\r\n    // Function to request mentorship data by department ID\r\n    function fetchMentorship(uint256 departmentId) public {\r\n        // Emit the fetch request event with the department ID and the sender's address\r\n        emit MentorshipFetchRequested(departmentId, msg.sender);\r\n    }\r\n}\r\n",
+  "sourceMap": "115:327:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "115:327:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;284:155;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;381:50;406:12;420:10;381:50;;;;;;;:::i;:::-;;;;;;;;284:155;:::o;7:139:3:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:118::-;631:24;649:5;631:24;:::i;:::-;626:3;619:37;609:53;;:::o;668:332::-;;827:2;816:9;812:18;804:26;;840:71;908:1;897:9;893:17;884:6;840:71;:::i;:::-;921:72;989:2;978:9;974:18;965:6;921:72;:::i;:::-;794:206;;;;;:::o;1006:96::-;;1072:24;1090:5;1072:24;:::i;:::-;1061:35;;1051:51;;;:::o;1108:126::-;;1185:42;1178:5;1174:54;1163:65;;1153:81;;;:::o;1240:77::-;;1306:5;1295:16;;1285:32;;;:::o;1323:122::-;1396:24;1414:5;1396:24;:::i;:::-;1389:5;1386:35;1376:2;;1435:1;1432;1425:12;1376:2;1366:79;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\n// Contract to fetch mentorship details by department\r\ncontract Mentorship {\r\n    // Event to be emitted when mentorship details are fetched\r\n    event MentorshipFetchRequested(uint256 departmentId, address requester);\r\n    function fetchMentorship(uint256 departmentId) public {\r\n        // Emit the event\r\n        emit MentorshipFetchRequested(departmentId, msg.sender);\r\n    }\r\n}\r\n",
   "sourcePath": "C:\\Users\\catha\\Documents\\CollegeProjects\\CS4207_Project\\contracts\\Mentorship.sol",
   "ast": {
     "absolutePath": "project:/contracts/Mentorship.sol",
@@ -913,7 +913,7 @@
                   "name": "departmentId",
                   "nodeType": "VariableDeclaration",
                   "scope": 28,
-                  "src": "177:20:1",
+                  "src": "237:20:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -924,7 +924,7 @@
                     "id": 23,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "177:7:1",
+                    "src": "237:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -940,7 +940,7 @@
                   "name": "requester",
                   "nodeType": "VariableDeclaration",
                   "scope": 28,
-                  "src": "199:17:1",
+                  "src": "259:17:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -951,7 +951,7 @@
                     "id": 25,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "199:7:1",
+                    "src": "259:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -961,15 +961,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "176:41:1"
+              "src": "236:41:1"
             },
-            "src": "146:72:1"
+            "src": "206:72:1"
           },
           {
             "body": {
               "id": 39,
               "nodeType": "Block",
-              "src": "341:163:1",
+              "src": "338:101:1",
               "statements": [
                 {
                   "eventCall": {
@@ -980,7 +980,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 30,
-                        "src": "471:12:1",
+                        "src": "406:12:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -993,7 +993,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 4294967281,
-                          "src": "485:3:1",
+                          "src": "420:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -1006,7 +1006,7 @@
                         "lValueRequested": false,
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
-                        "src": "485:10:1",
+                        "src": "420:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1029,7 +1029,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 28,
-                      "src": "446:24:1",
+                      "src": "381:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_address_$returns$__$",
                         "typeString": "function (uint256,address)"
@@ -1043,7 +1043,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "446:50:1",
+                    "src": "381:50:1",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
@@ -1052,7 +1052,7 @@
                   },
                   "id": 38,
                   "nodeType": "EmitStatement",
-                  "src": "441:55:1"
+                  "src": "376:55:1"
                 }
               ]
             },
@@ -1074,7 +1074,7 @@
                   "name": "departmentId",
                   "nodeType": "VariableDeclaration",
                   "scope": 40,
-                  "src": "312:20:1",
+                  "src": "309:20:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1085,7 +1085,7 @@
                     "id": 29,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "312:7:1",
+                    "src": "309:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1094,26 +1094,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "311:22:1"
+              "src": "308:22:1"
             },
             "returnParameters": {
               "id": 32,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "341:0:1"
+              "src": "338:0:1"
             },
             "scope": 41,
-            "src": "287:217:1",
+            "src": "284:155:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 42,
-        "src": "60:447:1"
+        "src": "115:327:1"
       }
     ],
-    "src": "33:476:1"
+    "src": "33:411:1"
   },
   "compiler": {
     "name": "solc",
@@ -1128,7 +1128,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-06T16:06:02.114Z",
+  "updatedAt": "2024-12-06T16:18:28.915Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

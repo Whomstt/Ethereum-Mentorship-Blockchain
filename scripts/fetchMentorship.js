@@ -2,14 +2,17 @@ const { Web3 } = require('web3');
 const fs = require('fs');
 const path = require('path');
 
-// Set up Web3 connection to the local Ganache instance (adjust port if needed)
+// Set up Web3 connection to the local Ganache instance
 const web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545')); // Ganache default port
 
-// Load the Mentorship contract ABI and address (from Truffle build artifacts)
+// Load the Mentorship contract ABI and address from truffle build artifacts
 const contractPath = path.join(__dirname, '../build/contracts/Mentorship.json');
 const contractJSON = JSON.parse(fs.readFileSync(contractPath, 'utf8'));
-const contractAddress = '0x340caebDF371bb8f9F95932360e2f5cDaC5B2Cd3'; // Replace with your contract's deployed address
 
+// Load the contract address from the environment variables
+const contractAddress = process.env.CONTRACT_ADDRESS;
+
+// Initialize the Mentorship contract
 const mentorshipContract = new web3.eth.Contract(contractJSON.abi, contractAddress);
 
 // Fetch mentorship data from the off-chain JSON file
