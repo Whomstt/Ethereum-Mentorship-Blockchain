@@ -1,10 +1,24 @@
-Node info with account details in nodes_info.txt
-
 Dependencies:
 
 npm install -g truffle
+npm install -g ganache-cli
+npm install -g web3
 
-Currently to test:
+
+Ganache Guide:
+
+Terminal 1:
+ganache-cli -p 8545
+
+Terminal 2:
+truffle migrate --network development
+node scripts/fetchMentorship.js 
+
+
+
+
+
+Old Geth Implementation Guide (Partial Functionality):
 
 Terminal 1:
 Launch node 1 (Paste as one command):

@@ -3,14 +3,37 @@
         "departmentName": "Computer Science",
         "mentors": [
             { "name": "Alice", "email": "alice@example.com", "expertise": "Data Science" },
-            { "name": "Bob", "email": "bob@example.com", "expertise": "Blockchain" }
+            { "name": "Bob", "email": "bob@example.com", "expertise": "Blockchain" },
+            { "name": "Eve", "email": "eve@example.com", "expertise": "Machine Learning" }
         ]
     },
     "2": {
         "departmentName": "Mathematics",
         "mentors": [
             { "name": "Carol", "email": "carol@example.com", "expertise": "Statistics" },
-            { "name": "Dave", "email": "dave@example.com", "expertise": "Algebra" }
+            { "name": "Dave", "email": "dave@example.com", "expertise": "Algebra" },
+            { "name": "Faythe", "email": "faythe@example.com", "expertise": "Calculus" }
+        ]
+    },
+    "3": {
+        "departmentName": "Electrical Engineering",
+        "mentors": [
+            { "name": "Grace", "email": "grace@example.com", "expertise": "Circuits" },
+            { "name": "Heidi", "email": "heidi@example.com", "expertise": "Signal Processing" }
+        ]
+    },
+    "4": {
+        "departmentName": "Physics",
+        "mentors": [
+            { "name": "Ivan", "email": "ivan@example.com", "expertise": "Quantum Mechanics" },
+            { "name": "Judy", "email": "judy@example.com", "expertise": "Astrophysics" }
+        ]
+    },
+    "5": {
+        "departmentName": "Biology",
+        "mentors": [
+            { "name": "Ken", "email": "ken@example.com", "expertise": "Genetics" },
+            { "name": "Liam", "email": "liam@example.com", "expertise": "Ecology" }
         ]
     }
 }

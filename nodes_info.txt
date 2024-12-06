@@ -1,6 +1,0 @@
-node1
-
-Account
-
-Password: Valid1234$
-"0xc9123601c6de6daca62919149667614eb358dc3f"
