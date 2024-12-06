@@ -1,0 +1,22 @@
+{
+  "name": "cs4207_project",
+  "version": "1.0.0",
+  "description": "Node info with account details in nodes_info.txt",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assertion-error": "^1.1.0",
+    "lodash.isequal": "^4.5.0",
+    "socket.io": "^4.8.1",
+    "truffle-assertions": "^0.9.2",
+    "uws": "^200.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

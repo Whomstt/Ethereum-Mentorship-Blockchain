@@ -1,6 +1,6 @@
-const StudentRequestSystem = artifacts.require("StudentRequestSystem");
+const Mentorship = artifacts.require("Mentorship");
 
 module.exports = async function (deployer) {
   // Deploy the SimpleStorage contract
-  await deployer.deploy(StudentRequestSystem);
+  await deployer.deploy(Mentorship);
 };

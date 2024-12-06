@@ -1,0 +1,16 @@
+{
+    "1": {
+        "departmentName": "Computer Science",
+        "mentors": [
+            { "name": "Alice", "email": "alice@example.com", "expertise": "Data Science" },
+            { "name": "Bob", "email": "bob@example.com", "expertise": "Blockchain" }
+        ]
+    },
+    "2": {
+        "departmentName": "Mathematics",
+        "mentors": [
+            { "name": "Carol", "email": "carol@example.com", "expertise": "Statistics" },
+            { "name": "Dave", "email": "dave@example.com", "expertise": "Algebra" }
+        ]
+    }
+}
