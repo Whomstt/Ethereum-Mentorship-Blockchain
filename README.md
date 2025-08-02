@@ -1,11 +1,16 @@
-Dependencies:
+## Description
+Developed a decentralized application on Ethereum using Geth and Truffle. Implemented smart contracts enabling users to create and manage mentorship requests, demonstrating the power of blockchain for trustless, transparent interactions.
+
+## Setup
+
+### Dependencies
 
 npm install -g truffle
 npm install -g ganache-cli
 npm install -g web3
 
 
-Ganache Guide:
+### Ganache Guide
 
 Terminal 1:
 ganache-cli -p 8545 // Launch our nodes on Ganache
@@ -17,8 +22,7 @@ node scripts/fetchMentorship.js 1 // Replace 1 with ID of Department to search
 
 node scripts/fetchInterviewQuestions.js 1 // Replace 1 with ID of Question to search
 
-
-Simulate Consensus:
+## Simulate Consensus
 
 Terminal 1:
 ganache-cli -p 8545 // Launch our nodes on Ganache 10 by default each with 1000 ETH
@@ -42,10 +46,7 @@ const block = await web3.eth.getBlock("latest");  // Store latest block details
 
 console.log(block); // View latest block details
 
-
-
-
-
+## Geth Archive
 
 Old Geth Implementation Guide (Partial Functionality):
 
